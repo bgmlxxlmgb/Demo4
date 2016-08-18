@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jscharts.js"></script>
+</head>
+<body>
+<div id="chartcontainer"></div>
+<script type="text/javascript">
+    var myData = new Array(['unit', 20], ['unit two', 10], ['unit three', 30], ['other unit', 10], ['last unit1', 30], ['last unit2', 32], ['last unit3', 34]);
+    var myChart = new JSChart('chartcontainer', 'bar');
+    myChart.setDataArray(myData);
+    myChart.draw();
+</script>
+</body>
+</html>
